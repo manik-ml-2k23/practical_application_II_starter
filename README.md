@@ -58,8 +58,14 @@ state                0
 
 - Exploratory Data Analysis (EDA): Analyzed the dataset to understand data distributions, correlations, and relationships between features.
 - Data Preprocessing: Handled missing values and outliers
-- Machine Learning Models: Linear regression and Lasso regression for predicting vehicle prices using cross validation
+- Machine Learning Models: Linear regression and Lasso regression for predicting vehicle prices using cross validation. Best Lasso model was used for modeling returned by GridSearch.
 - Model Evaluation: Evaluated model performance using RMSE and R-squared
+    * Linear regression achieved an RMSE of $9265 and R-squared of 0.39.
+    * Lasso regression achieved an MSE of $9265 and R-squared of 0.54.
+
+## Recommendations and Insights:
+    * Diesel fuel cars and year of manufacture have the strongest influence on vehicle prices.
+    * Vehicles in like new condition tend to have higher prices compared to fair or other condition.
 
 ## Dependencies
 
@@ -72,4 +78,4 @@ The analysis and modeling require following Python libraries:
 
 
 ## Next Steps:
-As per CRISP-DM, the next step would be to deploy the recomendation provided and monitor and fine tune as necessary and use as feedback for future modeling.
+As per CRISP-DM, the next step would be to deploy the recomendation provided, monitor and fine tune as necessary and use real-world performance feedback to maintain effectiveness over time.

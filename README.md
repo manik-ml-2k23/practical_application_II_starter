@@ -12,6 +12,7 @@ Papp_II.ipynb - Contains the solution sumbission
 We are trying to predict impact of different features of car on the Price of the car
 
 Features used for prediciton in this dataset:
+
 categorical_features = [ 'manufacturer', 'condition','fuel', 'title_status', 'transmission', 'drive', 'type', 'paint_color', 'cylinders']
 numerical_features = ['year', 'odometer']
 
@@ -24,22 +25,39 @@ Provided vehicles.csv data has 426880 and total of 18 columns.
 As first step the data was analyzed for missing values and nans. Missing data are summarized below.
 
 id                   0
+
 region               0
+
 price                0
+
 year              1205
+
 manufacturer     17646
+
 model             5277
+
 condition       174104
+
 cylinders       177678
+
 fuel              3013
+
 odometer          4400
+
 title_status      8242
+
 transmission      2556
+
 VIN             161042
+
 drive           130567
+
 size            306361
+
 type             92858
+
 paint_color     130203
+
 state                0
 
 

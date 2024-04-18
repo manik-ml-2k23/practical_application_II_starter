@@ -64,9 +64,12 @@ state                0
 
 ## Data Preparation:
 
-- Removed outliers in the price column, dropped columns with more than 30% missing data, dropped missing rows, features with high cardinality removed, invalid price values checked and removed.
+- Removed outliers in the price column
+- Dropped columns with more than 30% missing data
+- Dropped missing rows, 
+- Dropped features with high cardinality
+- Invalid price values checked and removed.
 - 'VIN', 'region', 'state' columns were dropped as they are not related to feature of a car 
-- Handled missing values using mean imputation for numerical features and most frequent imputation for categorical features.
 - Encoded categorical features using one-hot encoding.
 - Transformed numerical features using mean imputer and standard scaler
 
@@ -93,6 +96,15 @@ state                0
  Evaluated model performance using RMSE and R-squared. Looking at RMSE as the unit matches the target price in $ and R-Squared to look at the percentage.
 - Linear regression achieved an RMSE of $7881.7 and R-squared of 0.62.
 - Lasso regression achieved an MSE of $7881.7 and R-squared of 0.62.
+
+## Findings
+* Luxury car manufacturers like Ferrari, Datsun, Aston-Martin have strong influence on vehicle price
+* Diesel fuel cars have strong influence over other types
+* Year of Manufacture has significant impact on car price 
+* Off Road vehicle impact price over other types of vehicles
+* Vehicles in like new condition tend to have higher prices compared to fair or other condition.
+
+![alt text](images/Lasso Coefficients.png)
 
 ## Dependencies
 

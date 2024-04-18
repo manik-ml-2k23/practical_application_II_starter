@@ -1,7 +1,7 @@
 # papp2
 
 ## Problem Statement:
-what drives a price of a Car?
+What drives a price of a Car?
 The goal of this project is to explore used vehicles dataset from Kaggle and understand what factors make a car more or less expensive.  
 
 
@@ -95,7 +95,7 @@ state                0
 ## Model Evaluation: 
  Evaluated model performance using RMSE and R-squared. Looking at RMSE as the unit matches the target price in $ and R-Squared to look at the percentage.
 - Linear regression achieved an RMSE of $7881.7 and R-squared of 0.62.
-- Lasso regression achieved an MSE of $7881.7 and R-squared of 0.62.
+- Lasso regression achieved an RMSE of $7881.7 and R-squared of 0.62.
 
 ## Findings
 * Luxury car manufacturers like Ferrari, Datsun, Aston-Martin have strong influence on vehicle price

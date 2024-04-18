@@ -104,7 +104,7 @@ state                0
 * Off Road vehicle impact price over other types of vehicles
 * Vehicles in like new condition tend to have higher prices compared to fair or other condition.
 
-![alt text](images/Lasso Coefficients.png)
+![alt text](images/Lasso%20Coefficients.png)
 
 ## Dependencies
 
